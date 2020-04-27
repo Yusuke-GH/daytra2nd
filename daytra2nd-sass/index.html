@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>daytra2nd-card</title>
+        <meta name="description" content="デイトラ2ndカード編の課題演習">
+        <meta name="author" content="Yusuke">
+        <meta property="og:url" content="http://example.com/index.html">
+        <meta property="og:type" content="website">
+        <meta property="og:tytle" content="daytra2nd-card-home">
+        <meta property="og:image" content="http://example.com/images/ogp.jpg">
+        <!-- favicon -->
+        <link rel="icon" href="images/daytra-fabicon.ico">
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <!-- Google-fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet"><!-- 'Noto Sans' -->
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+
+    <!-- jQueryの読込確認 -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function(){
+            alert("jQueryファイルの読み込み完了です。");
+        });
+    </script> -->
+
+    <body>
+        <header>
+            <div class="page-header wrapper ">
+                <h1><a href="#"><img class="logo" src="images/daytra-logo.png" alt="デイトラ2ndカード作成編のホーム"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="#excercise">Excercise</a></li>
+                        <li><a href="#addition">Addition</a></li>
+                        <li><a class="home-btn" href="#">Home</a></li>
+                        <li><a class="hamburger-menu-btn" href="#"><span></span><span></span><span></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="main-visual" class="big-bg">
+            <div class="dark-cover">
+                <div class="main-message wrapper">
+                    <h1>Which card<br>do you want to use?</h1>
+                    <p>デイトラ2nd カード作成編</p>
+                </div>
+            </div>
+            <div class="scroll-icon-position">
+                <img src="images/scroll.png" alt="スクロールアイコン">
+            </div>
+        </div><!-- /#main-visual -->
+
+        <section class="explanation-devision wrapper">
+            <div class="sectio-title">
+                <h1>本サイトの構成</h1>
+                <p>3構成です。デイトラ2ndカード編 全課題の成果物を載せています。スニペット用に作りました。</p>
+            </div>
+            <div class="explanation-content">
+                <div class="sec1">
+                    <div class="sec-item">
+                        <h2>sec</h2>
+                        <p>1</p>
+                    </div>
+                    <div class="sec-content">
+                        <img src="images/exercise.png" alt="デイトラ課題">
+                        <p>デイトラ2nd 課題</p>
+                        <div class="stylish-btn">
+                            <a class="stylish-btn-setting" href="#excercise">移動する<span class="arrow"></span></a>
+                        </div>
+                    </div><!-- /.sec-content -->
+                </div><!-- /.sec1 -->
+                <div class="sec2">
+                    <div class="sec-item">
+                        <h2>sec</h2>
+                        <p>2</p>
+                    </div>
+                    <div class="sec-content">
+                        <img src="images/exercise.png" alt="デイトラ課題">
+                        <p>デイトラ2nd 追加課題</p>
+                        <div class="stylish-btn">
+                            <a class="stylish-btn-setting" href="#addition">移動する<span class="arrow"></span></a>
+                        </div>
+                    </div><!-- /.sec-content -->
+                </div><!-- /.sec2 -->
+                <div class="sec3">
+                    <div class="sec-item">
+                        <h2>sec</h2>
+                        <p>3</p>
+                    </div>
+                    <div class="sec-content">
+                        <img src="images/exercise.png" alt="デイトラ課題">
+                        <p>各種課題 リンク</p>
+                        <div class="stylish-btn">
+                            <a class="stylish-btn-setting" href="#footer">移動する<span class="arrow"></span></a>
+                        </div>
+                    </div><!-- /.sec-content -->
+                </div><!-- /.sec3 -->
+            </div><!-- /.explanation-content -->
+        </section>
+
+        <section id="excercise">
+            <div class="wrapper">
+                <div class="sectio-title">
+                    <h1>デイトラ2nd 課題</h1>
+                    <p>横並びカードのコーディング。flex-box, nth-child, calcを組み合わせてコーディングする。</p>
+                </div>
+                <div class="excercise-content">
+                </div>
+            </div><!-- /.wrapper -->
+        </section>
+
+        <section id="addition">
+            <div class="wrapper">
+                <div class="sectio-title">
+                    <h1>デイトラ2nd 追加課題</h1>
+                    <p>3つのパターンでコーディングする。①display: flex;, ②display: inline-block;, ③float: ○○;</p>
+                </div>
+                <div class="additional-excercise-content">
+                </div>
+            </div><!-- /.wrapper -->
+        </section>
+
+        <footer id="footer">
+            <div class="footer-items-position wrapper">
+                <div class="footer-various-links">
+                    <div class="footer-links-block_1">
+                        <ul class="footer-links-style">
+                          <li><a><span class="triangular-arrow-icon"></span>カード</a></li>
+                          <li><a><span class="triangular-arrow-icon"></span>見出し</a></li>
+                          <li><a><span class="triangular-arrow-icon"></span>ボタン</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-block_2">
+                        <ul class="footer-links-style">
+                          <li><a><span class="triangular-arrow-icon"></span>ニュース</a></li>
+                          <li><a><span class="triangular-arrow-icon"></span>テーブル</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-block_3">
+                        <ul class="footer-links-style">
+                          <li><a><span class="triangular-arrow-icon"></span>フォーム</a></li>
+                          <li><a><span class="triangular-arrow-icon"></span>フッター</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-right-side">
+                    <img class="daytra-logo" src="images/daytra-logo.png" alt="フッターのロゴ">
+                    <p class="footer-sentense">@ 2020 Yusuke Sakai. All Rights Reserved.</p>
+                </div>
+            </div><!-- /.footer-items-position -->
+        </footer>
+
+        <div class="fixed-btn-position">
+            <a class="fixed-btn" href="#">コードを見る</a>
+        </div>
+
+    </body>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>

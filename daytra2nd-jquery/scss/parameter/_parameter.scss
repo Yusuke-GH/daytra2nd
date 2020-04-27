@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+
+//変数の定義
+//-----------------------------------------------------
+
+//【 color 】
+//< main-color >
+$main-color: #06bab5;
+
+//< base-color >
+$base-color-blue-green: rgba(3, 186, 181, 0.05);
+$base-color-white: #ffffff;
+$base-color-gray: #f3f3f3;
+$base-color-dark-gray: #b9b9b9;
+
+//< text-color >
+$text-color-deep: #333333;
+$text-color-dark: #181818;
+$text-color-light: #5c5c5c;
+$text-color-faint: rgba(24, 24, 24, 0.7);
+$text-color-blue-green: #06bab5;
+
+//< editor-color >
+$editor-frame: #888888;
+$editor-background: #272822;
+$editor-background-selected: #333333;
+$editor-text: #6d727c;
+$editor-text-selected: #d7dadf;
+$editor-partition: #000000;
+
+
+//【 font 】
+//< font-size >
+$font-size-13px: 0.813rem;
+$font-size-14px: 0.875rem;
+$font-size-15px: 0.938rem;
+$font-size-17px: 1.063rem;
+$font-size-25px: 1.563rem;
+$font-size-27px: 1.687rem;
+$font-size-30px: 1.875rem;
+$font-size-80px: 5.000rem;
+
+
+//【 z-axial-order 】
+//< z-index >
+$z-index-1: 1;    //.scroll-icon-position
+$z-index-2: 2;    //.dark-cover
+$z-index-3: 3;    //.main-message
+$z-index-4: 4;    //#global-navigation
+$z-index-5: 5;    //header
+$z-index-6: 6;    //.fixed-btn-position
+$z-index-7: 7;    //.modal
